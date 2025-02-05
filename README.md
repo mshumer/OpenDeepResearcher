@@ -61,7 +61,12 @@ cd OpenDeepResearcher
 pip install -r requirements.txt
 ```
 
-3. Run Codes
+3. Copy the config example file and replace the API keys
+```bash
+cp .env.example .env
+```
+
+4. Run Codes
 ```base
 python open_deep_researcher.py
 ```
