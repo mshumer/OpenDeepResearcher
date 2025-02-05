@@ -1,0 +1,3 @@
+nest_asyncio
+python-dotenv
+aiohttp
