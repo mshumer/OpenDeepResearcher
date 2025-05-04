@@ -17,9 +17,9 @@ This notebook implements an **AI researcher** that continuously searches for inf
 ## Requirements
 
 - API access and keys for:
-  - **OpenRouter API**
-  - **SERPAPI API**
-  - **Jina API**
+  - **[OpenRouter API](https://openrouter.ai/settings/keys)**
+  - **[SERPAPI API](https://serpapi.com/manage-api-key)**
+  - **[Jina API](https://jina.ai/api-dashboard/key-manager)**
 
 ## Setup
 
@@ -48,6 +48,28 @@ This notebook implements an **AI researcher** that continuously searches for inf
 
 3. **View the Final Report:**
    The final comprehensive report will be printed in the output.
+
+## Run it locally
+1. Clone Repo
+```bash
+git clone https://github.com/mshumer/OpenDeepResearcher
+cd OpenDeepResearcher
+```
+
+2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+3. Copy the config example file and replace the API keys
+```bash
+cp .env.example .env
+```
+
+4. Run Codes
+```base
+python open_deep_researcher.py
+```
 
 ## How It Works
 
